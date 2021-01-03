@@ -4,7 +4,8 @@
 <p align="center">A Minecraft Launcher For Minecraft Lovers :)</p>
 
 <div align="center">
-<img src="https://img.shields.io/node/v/fastify.svg?style=flat"/>
+<img src="https://img.shields.io/node/v/fastify.svg?style=for-the-badge&logo=appveyor"/>
+<img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=appveyor"/>
 </div>
 
 **Build Installers**
