@@ -3,6 +3,10 @@
 <h1 align="center">Bee Launcher</h1>
 <p align="center">A Minecraft Launcher For Minecraft Lovers :)</p>
 
+<div align="center">
+<img src="https://img.shields.io/node/v/fastify.svg?style=flat"/>
+</div>
+
 **Build Installers**
 
 To build for your current platform.
