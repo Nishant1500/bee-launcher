@@ -22,3 +22,21 @@ Build for a specific platform.
 Builds for macOS may not work on Windows/Linux and vice-versa.
 
 ---
+
+
+The best way to contact the developers is on Discord.
+
+[![discord](https://discordapp.com/api/guilds/787578856122351626/embed.png?style=banner3)][discord]
+
+---
+
+### See You In-game Or In Discord.
+
+
+[nodejs]: https://nodejs.org/en/ 'Node.js'
+[vscode]: https://code.visualstudio.com/ 'Visual Studio Code'
+[mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
+[rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
+[chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
+[discord]: https://discord.gg/EwcyWMvsae 'Discord'
+
