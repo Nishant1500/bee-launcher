@@ -7,10 +7,17 @@
     },
     "main": "main.js",
     "devDependencies": {
-        "electron": "^1.6.11"
+        "electron": "^1.6.11",
+        "cross-env": "^7.0.2",
+        "electron-builder": "^22.8.0",
+        "eslint": "^7.9.0"
     },
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "dist": "cross-env ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true node build.js",
+        "dist:win": "npm run dist -- WINDOWS",
+        "dist:mac": "npm run dist -- MAC",
+        "dist:linux": "npm run dist -- LINUX"
     },
     "dependencies": {
         "adm-zip": "^0.5.1",
@@ -20,7 +27,6 @@
         "electron-localshortcut": "^3.2.1",
         "internet-available": "^1.0.0",
         "minecraft-launcher-core": "^3.15.6",
-        "offline": "^0.7.14",
         "spotify-web-api-node": "^5.0.0",
         "superagent": "^6.1.0",
         "uuid": "^8.3.2"
