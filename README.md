@@ -16,6 +16,8 @@
 First Step Is To Do The Following Command
 ```console
 > npm i
+```
+```console
 or > npm install
 ```
 Second Step,
