@@ -12,6 +12,22 @@
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
+**Run It**
+First Step Is To Do The Following Command
+```console
+> npm i
+or > npm install
+```
+Second Step,
+If You Are Not Using Visual Studio Code, Do This
+```console
+>npm start
+```
+
+**Visual Studio Users Can Use The Terminal Task/ NPM Scripts Tab To Start The App..**
+
+--
+
 **Build Installers**
 
 To build for your current platform.
@@ -48,4 +64,3 @@ The best way to contact the developers is on Discord.
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
 [discord]: https://discord.gg/EwcyWMvsae 'Discord'
-
