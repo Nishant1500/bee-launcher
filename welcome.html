@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bee Launcher</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+<div id="main" draggable="false">
+    <div id="frameContentWin">
+            <div id="frameTitleDock">
+                <span id="frameTitleText">Bee Launcher</span>
+            </div>
+            <div id="frameButtonDockWin">
+                <button class="frameButton FRB" id="frameButton_restart" tabIndex="-1">
+                    ⭕
+                </button>
+                <button class="frameButton fMb" id="frameButton_minimize" tabIndex="-1">
+                    <svg name="TitleBarRestore" width="10" height="10" viewBox="0 0 12 12"><rect stroke="#ffffff" fill="#ffffff" width="10" height="1" x="1" y="6"></rect></svg>
+                </button>
+                <button class="frameButton fRb" id="frameButton_restoredown" tabIndex="-1">
+                    <svg name="TitleBarMaximize" width="10" height="10" viewBox="0 0 12 12"><rect width="9" height="9" x="1.5" y="1.5" fill="none" stroke="#ffffff" stroke-width="1.4px"></rect></svg>
+                </button>
+                <button class="frameButton fCb" id="frameButton_close" tabIndex="-1">
+                    <svg name="TitleBarClose" width="10" height="10" viewBox="0 0 12 12"><polygon stroke="#ffffff" fill="#ffffff" fill-rule="evenodd" points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"></polygon></svg>
+                </button>
+            </div>
+        </div>
+        <div id="welcomeContainer">
+            <!--<div class="cloudDiv">
+                <div class="cloudTop"></div>
+                <div class="cloudBottom"></div>
+            </div>-->
+            <div id="welcomeContent">
+                <img id="welcomeImageSeal" src="assets/logo.png"/>
+                <span id="welcomeHeader">WELCOME!</span>
+                <span id="welcomeDescription">A Minecraft Launcher For Minecraft Lovers!</span>
+                <br>
+                <span id="welcomeDescCTA">Click The Button Below If You Accept Our Rules</span>
+                <button class="welcomeButton" id="welcomeButton" >
+                    <div id="welcomeButtonContent">
+                        CONTINUE
+                        <svg id="welcomeSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+       const {ipcRenderer, remote, shell, webFrame} = require('electron')
+       
+       document.getElementById("welcomeButton").onclick = function () {
+        window.location.href = './index.html';
+    };
+ // Bind close button.
+    Array.from(document.getElementsByClassName('frameButton FRB')).map((val) => {
+        val.addEventListener('click', e => {
+            const window = remote.getCurrentWindow()
+            document.getElementById("frameButton_restart").innerHTML = "Reload";
+            setTimeout(() => { window.reload() }, 1000);
+            console.log('Reloading....!');
+        })
+    })
+
+    //Bind Restart Button
+    Array.from(document.getElementsByClassName('frameButton fCb')).map((val) => {
+        val.addEventListener('click', e => {
+            const window = remote.getCurrentWindow()
+            window.close()
+        })
+    })
+
+    // Bind restore down button.
+    Array.from(document.getElementsByClassName('frameButton fRb')).map((val) => {
+        val.addEventListener('click', e => {
+            const window = remote.getCurrentWindow()
+            if(window.isMaximized()){
+                window.unmaximize()
+            } else window.maximize()
+            document.activeElement.blur()
+            console.log('Window Maximized!');
+        })
+    })
+
+    // Bind minimize button.
+    Array.from(document.getElementsByClassName('frameButton fMb')).map((val) => {
+        val.addEventListener('click', e => {
+            const window = remote.getCurrentWindow()
+            window.minimize()
+            console.log('Window Minimized!');
+            document.activeElement.blur()
+        })
+    })
+
+remote.getCurrentWebContents().on('devtools-opened', () => {
+console.log('%cThe console is dark and full of terrors.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
+console.log('%cIf you\'ve been told to paste something here, you\'re being scammed.', 'font-size: 16px')
+console.log('%cUnless you know exactly what you\'re doing, close this window.', 'font-size: 16px')
+})
+    </script>
+    </html>
