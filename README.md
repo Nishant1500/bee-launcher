@@ -12,7 +12,8 @@
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
-**Run It**
+<h2>Run It</h2>
+
 First Step Is To Do The Following Command
 ```console
 > npm i
@@ -21,8 +22,8 @@ Or You Can Use
 ```console
 > npm install
 ```
+**Second Step**,
 
-Second Step,
 If You Are Not Using Visual Studio Code, Do This
 ```console
 > npm start
@@ -30,9 +31,9 @@ If You Are Not Using Visual Studio Code, Do This
 
 **Visual Studio Users Can Use The Terminal Task/ NPM Scripts Tab To Start The App..**
 
---
+---
 
-**Build Installers**
+<h2>Build Installers</h2>
 
 To build for your current platform.
 
