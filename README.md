@@ -17,13 +17,15 @@ First Step Is To Do The Following Command
 ```console
 > npm i
 ```
+Or You Can Use
 ```console
-or > npm install
+> npm install
 ```
+
 Second Step,
 If You Are Not Using Visual Studio Code, Do This
 ```console
->npm start
+> npm start
 ```
 
 **Visual Studio Users Can Use The Terminal Task/ NPM Scripts Tab To Start The App..**
