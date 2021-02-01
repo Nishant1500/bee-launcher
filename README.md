@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Version%20In%20Development-1.0.0-orange?style=for-the-badge"/>
  <img src="https://img.shields.io/github/issues/Nishant1500/bee-launcher?color=blue&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-brightgreen?style=for-the-badge"/>
-<img src="https://img.shields.io/node/v/fastify.svg?style=for-the-badge&logo=node.js"/>
+<img src="https://img.shields.io/badge/Node%20Version-15.7.0-green?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
