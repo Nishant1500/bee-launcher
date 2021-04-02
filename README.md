@@ -4,9 +4,9 @@
 <p align="center">A Minecraft Launcher For Minecraft Lovers :)</p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Discord-Join%20Now-brightgreen?style=for-the-badge&logo=discord" href="https://discord.gg/EwcyWMvsae"/>
+<img src="https://img.shields.io/badge/Discord-Join%20Now-brightgreen?style=for-the-badge&logo=discord" href="https://discord.gg/EwcyWMvsae"/>
 <img src="https://img.shields.io/badge/Version%20In%20Development-2.6.0-orange?style=for-the-badge"/>
- <img src="https://img.shields.io/github/issues/Nishant1500/bee-launcher?color=blue&style=for-the-badge"/>
+<img src="https://img.shields.io/github/issues/Nishant1500/bee-launcher?color=blue&style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-brightgreen?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Node%20Version-15.12.0-green?style=for-the-badge&logo=Node.js"/>
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
