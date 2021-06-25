@@ -13,7 +13,11 @@
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
-<h2>Run It</h2>
+### New UI Screenshot
+![Sneak Peek 1](https://media.discordapp.net/attachments/826481596215197762/851810674937167911/unknown.png)
+![Sneak Peek 2](https://media.discordapp.net/attachments/826481596215197762/851809748189446165/unknown.png)
+![Sneak Peek 3](https://media.discordapp.net/attachments/826481596215197762/844854851296559104/unknown.png)
+### Run It
 
 First Step Is To Do The Following Command
 ```console
