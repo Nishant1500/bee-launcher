@@ -13,6 +13,21 @@
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
+# Downloads
+You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher) Or From Offcial Site :D
+<br>**You Don't Need To Update It Manually, There Are Auto Updates!**
+
+#### Latest
+[![](https://img.shields.io/badge/release-v2.5.0-blue?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/latest)
+
+#### Latest Public Beta
+[![](https://img.shields.io/badge/release-v2.2.0-orange?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/releases/tag/v2.2.0)
+
+
+#### Latest Private Alpha
+[![](https://img.shields.io/badge/release-v3.0.0-blueviolet?style=for-the-badge)](https://discord.gg/xckZRGyDrM)
+- Private Alphas Are Available For Some Users, Join Our [**Discord Server**](https://discord.gg/xckZRGyDrM) To Get A Look At It
+
 ### New UI Screenshot
 ![Sneak Peek 1](https://media.discordapp.net/attachments/826481596215197762/851810674937167911/unknown.png)
 ![Sneak Peek 2](https://media.discordapp.net/attachments/826481596215197762/851809748189446165/unknown.png)
@@ -61,7 +76,7 @@ Builds for macOS may not work on Windows/Linux and vice-versa.
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discordapp.com/api/guilds/787578856122351626/embed.png?style=banner3)](https://discord.gg/ynAhYnavGm)
+[![discord](https://discordapp.com/api/guilds/787578856122351626/embed.png?style=banner3)](https://discord.gg/xhttps://discord.gg/xckZRGyDrM)
 
 ---
 
@@ -73,4 +88,4 @@ The best way to contact the developers is on Discord.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/EwcyWMvsae 'Discord'
+[discord]: https://discord.gg/xckZRGyDrM 'Discord'
