@@ -30,7 +30,7 @@
         "adm-zip": "^0.5.1",
         "asar": "^3.0.3",
         "axios": "^0.21.1",
-        "bee-mod-loader": "^1.0.1",
+        "bee-mod-parser": "^1.0.1",
         "better-twitch-app-api": "^1.0.0",
         "catchie": "^1.0.2",
         "checksum": "^0.1.1",
