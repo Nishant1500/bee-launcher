@@ -32,44 +32,8 @@ You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Release
 ![Sneak Peek 1](https://media.discordapp.net/attachments/826481596215197762/851810674937167911/unknown.png)
 ![Sneak Peek 2](https://media.discordapp.net/attachments/826481596215197762/851809748189446165/unknown.png)
 ![Sneak Peek 3](https://media.discordapp.net/attachments/826481596215197762/844854851296559104/unknown.png)
-### Run It
 
-First Step Is To Do The Following Command
-```console
-> npm i
-```
-Or You Can Use
-```console
-> npm install
-```
-**Second Step**,
-
-If You Are Not Using Visual Studio Code, Do This
-```console
-> npm start
-```
-
-**Visual Studio Users Can Use The Terminal Task/ NPM Scripts Tab To Start The App..**
-
----
-
-<h2>Build Installers</h2>
-
-To build for your current platform.
-
-```console
-> npm run dist
-```
-
-Build for a specific platform.
-
-| Platform    | Command              |
-| ----------- | -------------------- |
-| Windows x64 | `npm run dist:win`   |
-| macOS       | `npm run dist:mac`   |
-| Linux x64   | `npm run dist:linux` |
-
-Builds for macOS may not work on Windows/Linux and vice-versa.
+**Check [Wiki](https://github.com/Nishant1500/bee-launcher/wiki) For Contribution And Running It Locally Guides.**
 
 ---
 
@@ -78,9 +42,9 @@ The best way to contact the developers is on Discord.
 
 [![discord](https://discordapp.com/api/guilds/787578856122351626/embed.png?style=banner3)](https://discord.gg/xhttps://discord.gg/xckZRGyDrM)
 
----
+#### See You In-game Or In Discord.
 
-### See You In-game Or In Discord.
+---
 
 
 [nodejs]: https://nodejs.org/en/ 'Node.js'
@@ -89,3 +53,7 @@ The best way to contact the developers is on Discord.
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
 [discord]: https://discord.gg/xckZRGyDrM 'Discord'
+
+### Special Thanks to
+- **[Helios Launcher](https://www.google.com/url?sa=t&source=web&rct=j&url=https://github.com/dscalzi/HeliosLauncher/)** For Inspiring Us To Make This Launcher. Our First Version was based on their code, just some minor changes.
+- And to all other contributors! 💖
