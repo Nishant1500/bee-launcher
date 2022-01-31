@@ -57,3 +57,5 @@ The best way to contact the developers is on Discord.
 ### Special Thanks to
 - **[Helios Launcher](https://www.google.com/url?sa=t&source=web&rct=j&url=https://github.com/dscalzi/HeliosLauncher/)** For Inspiring Us To Make This Launcher. Our First Version was based on their code, just some minor changes.
 - And to all other contributors! 💖
+
+T
