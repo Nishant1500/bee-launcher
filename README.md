@@ -14,24 +14,26 @@
 </div>
 
 # Downloads
-You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher) Or From Offcial Site :D
+You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher/releases) Or From Offcial Site :D
 <br>**You Don't Need To Update It Manually, There Are Auto Updates! (you can disable this in settings)**
 
 #### Latest
-[![](https://img.shields.io/badge/release-v2.5.0-blue?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/latest)
+[![Latest Release](https://img.shields.io/badge/release-None-blue?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/latest)
 
 #### Latest Public Beta
-[![](https://img.shields.io/badge/release-v2.2.0-orange?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/releases/tag/v2.2.0)
+[![Public Beta](https://img.shields.io/badge/release-None-orange?style=for-the-badge)](https://github.com/Nishant1500/bee-launcher/releases/tag/v2.5.0+)
 
 
 #### Latest Private Alpha
-[![](https://img.shields.io/badge/release-v3.0.0-blueviolet?style=for-the-badge)](https://discord.gg/xckZRGyDrM)
-- Private Alphas Are Available For Some Users, Join Our [**Discord Server**](https://discord.gg/xckZRGyDrM) To Get A Look At It (low chance to get it)
+[![Private Alpha](https://img.shields.io/badge/release-v3.0.0-blueviolet?style=for-the-badge)](https://discord.gg/xckZRGyDrM)
+- Private Alphas Are Available For Some Users, Join Our [**Discord Server**](https://discord.gg/xckZRGyDrM) To Get A Look At It (low chance of getting it)
 
 ### New UI Screenshot
-![Sneak Peek 1](https://media.discordapp.net/attachments/826481596215197762/851810674937167911/unknown.png)
-![Sneak Peek 2](https://media.discordapp.net/attachments/826481596215197762/851809748189446165/unknown.png)
-![Sneak Peek 3](https://media.discordapp.net/attachments/826481596215197762/844854851296559104/unknown.png)
+<p align="center">
+<img alt="Sneak Peek 1" src="https://media.discordapp.net/attachments/928562867375050816/937597758062362644/image.png"/>
+<img alt="Sneak Peek 2" src="https://media.discordapp.net/attachments/928562867375050816/937597758360137748/image_1.png"/>
+<img alt="Sneak Peek 3" src="https://media.discordapp.net/attachments/928562867375050816/937597758615982090/image_2.png"/>
+</p>
 
 **Check [Wiki](https://github.com/Nishant1500/bee-launcher/wiki) For Contribution And Running It Locally Guides.**
 
@@ -57,3 +59,9 @@ The best way to contact the developers is on Discord.
 ### Special Thanks to
 - **[Helios Launcher](https://www.google.com/url?sa=t&source=web&rct=j&url=https://github.com/dscalzi/HeliosLauncher/)** For Inspiring Us To Make This Launcher. Our First Version was based on their code, just some minor changes.
 - And to all other contributors! 💖
+
+### 📌 Additional Information
+- This program doesn't have a trusted code sign certificate, so Window Defender/Antivirus might delete the file or just show a warning. Turn off Window Defender/Antivirus if the program isn't working or you can add Bee Launcher to Window Defender [Exclusions](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-exclusions-microsoft-defender-antivirus?view=o365-worldwide).
+
+> **If we get large userbase then we will sign the program with trusted Microsoft's code signing partner**
+> Or the warning will simply disappear if we get large number of downloads according to Microsoft Windows Defender/Antivirus's documentation
