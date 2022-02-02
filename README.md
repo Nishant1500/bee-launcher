@@ -65,3 +65,5 @@ The best way to contact the developers is on Discord.
 
 > **If we get large userbase then we will sign the program with trusted Microsoft's code signing partner**
 > Or the warning will simply disappear if we get large number of downloads according to Microsoft Windows Defender/Antivirus's documentation
+
+- This Repository Doesn't Contains The Full Source Code, the files are of v1.0.0 and it's very bad. Clone/fork if you stil want to work with those source codes
