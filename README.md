@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/Copyright-2021-blue?style=for-the-badge&logo=C"/>
 </div>
 
-# Downloads
+## Downloads
 You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher/releases) Or From Offcial Site :D
 <br>**You Don't Need To Update It Manually, There Are Auto Updates! (you can disable this in settings)**
 
@@ -28,12 +28,15 @@ You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Release
 [![Private Alpha](https://img.shields.io/badge/release-v3.0.0-blueviolet?style=for-the-badge)](https://discord.gg/xckZRGyDrM)
 - Private Alphas Are Available For Some Users, Join Our [**Discord Server**](https://discord.gg/xckZRGyDrM) To Get A Look At It (low chance of getting it)
 
-### New UI Screenshot
+## Sneak Peeks
+<details><summary>New UI Screenshot</summary>
 <p align="center">
 <img alt="Sneak Peek 1" src="https://media.discordapp.net/attachments/928562867375050816/937597758062362644/image.png"/>
 <img alt="Sneak Peek 2" src="https://media.discordapp.net/attachments/928562867375050816/937597758360137748/image_1.png"/>
 <img alt="Sneak Peek 3" src="https://media.discordapp.net/attachments/928562867375050816/937597758615982090/image_2.png"/>
 </p>
+
+</details>
 
 **Check [Wiki](https://github.com/Nishant1500/bee-launcher/wiki) For Contribution And Running It Locally Guides.**
 
