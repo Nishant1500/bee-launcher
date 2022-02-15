@@ -27,7 +27,7 @@ You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Release
 [![Private Alpha](https://img.shields.io/badge/release-v3.0.0-blueviolet?style=for-the-badge)](https://discord.gg/xckZRGyDrM)
 - Private Alphas Are Available For Some Users, Join Our [**Discord Server**](https://discord.gg/xckZRGyDrM) To Get A Look At It (low chance of getting it)
 
-## Sneak Peeks
+### Sneak Peeks
 <details><summary>New UI Screenshot</summary>
 <p align="center">
 <img alt="Sneak Peek 1" src="https://media.discordapp.net/attachments/928562867375050816/937597758062362644/image.png"/>
@@ -35,9 +35,7 @@ You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Release
 <img alt="Sneak Peek 3" src="https://media.discordapp.net/attachments/928562867375050816/937597758615982090/image_2.png"/>
 </p>
 </details>
-<summary>
 
----
 
 **Check [Wiki](https://github.com/Nishant1500/bee-launcher/wiki) For Contribution And Running It Locally Guides.**
 
