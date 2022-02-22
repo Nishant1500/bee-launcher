@@ -24,7 +24,7 @@
     "dependencies": {
         "@dwdarm/num-format": "^1.1.1",
         "@fortawesome/fontawesome-free": "^5.15.3",
-        "@xmcl/core": "^2.6.2",
+        "@xmcl/core": "^2.9.0",
         "@xmcl/mod-parser": "^3.1.0",
         "@xmcl/task": "^3.0.0",
         "adm-zip": "^0.5.1",
