@@ -27,7 +27,7 @@
         "@xmcl/core": "^2.6.2",
         "@xmcl/mod-parser": "^3.1.0",
         "@xmcl/task": "^3.0.0",
-        "adm-zip": "^0.5.1",
+        "adm-zip": "^0.5.9",
         "asar": "^3.0.3",
         "axios": "^0.21.1",
         "bee-mod-parser": "^1.0.1",
