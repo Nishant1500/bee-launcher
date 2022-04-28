@@ -49,7 +49,7 @@
         "ip": "^1.1.5",
         "lzma-native": "^8.0.1",
         "map-folder": "^1.2.7",
-        "minecraft-launcher-core": "^3.16.4",
+        "minecraft-launcher-core": "^3.16.11",
         "minecraft-path": "^1.0.0",
         "msmc": "^2.0.4",
         "network_access_status": "^2.1.1",
