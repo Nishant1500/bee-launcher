@@ -14,7 +14,7 @@
 </div>
 
 ## Downloads
-You Can Download [Bee Launcher](https://bee-launcher.ga/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher/releases) Or From Offcial Site :D
+You Can Download [Bee Launcher](https://bee-launcher.com/) From [**Github Releases**](https://github.com/Nishant1500/bee-launcher/releases) Or From Offcial Site :D
 <br>**You Don't Need To Update It Manually, There Are Auto Updates! (you can disable this in settings)**
 
 #### Latest
