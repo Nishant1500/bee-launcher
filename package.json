@@ -11,7 +11,7 @@
     "devDependencies": {
         "@types/node": "^14.14.35",
         "cross-env": "^7.0.2",
-        "electron": "^11.5.0",
+        "electron": "^18.3.7",
         "electron-builder": "^20.44.4"
     },
     "scripts": {
