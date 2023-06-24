@@ -35,7 +35,7 @@
         "catchie": "^1.0.2",
         "checksum": "^0.1.1",
         "colors": "^1.4.0",
-        "configstore": "^5.0.1",
+        "configstore": "^6.0.0",
         "cookie-parser": "^1.4.5",
         "cors": "^2.8.4",
         "discord-rich-presence": "0.0.8",
