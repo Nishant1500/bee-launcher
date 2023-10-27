@@ -29,7 +29,7 @@
         "@xmcl/task": "^3.0.0",
         "adm-zip": "^0.5.9",
         "asar": "^3.0.3",
-        "axios": "^0.25.0",
+        "axios": "^1.6.0",
         "bee-mod-parser": "^1.0.1",
         "better-twitch-app-api": "^1.0.0",
         "catchie": "^1.0.2",
