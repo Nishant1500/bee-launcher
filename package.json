@@ -54,7 +54,7 @@
         "msmc": "^2.0.4",
         "network_access_status": "^2.1.1",
         "node-my-log": "^1.1.1",
-        "puppeteer": "^10.2.0",
+        "puppeteer": "^18.2.0",
         "request": "^2.88.2",
         "request-progress": "^3.0.0",
         "restler": "^3.4.0",
