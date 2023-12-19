@@ -51,7 +51,7 @@
         "map-folder": "^1.2.7",
         "minecraft-launcher-core": "^3.16.4",
         "minecraft-path": "^1.0.0",
-        "msmc": "^2.0.4",
+        "msmc": "^3.0.0",
         "network_access_status": "^2.1.1",
         "node-my-log": "^1.1.1",
         "puppeteer": "^10.2.0",
