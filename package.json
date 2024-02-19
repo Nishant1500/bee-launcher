@@ -46,7 +46,7 @@
         "electron-updater": "^4.6.5",
         "express": "~4.16.0",
         "imagesloaded": "^4.1.4",
-        "ip": "^1.1.5",
+        "ip": "^1.1.9",
         "lzma-native": "^8.0.1",
         "map-folder": "^1.2.7",
         "minecraft-launcher-core": "^3.16.4",
