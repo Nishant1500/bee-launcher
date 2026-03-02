@@ -1,6 +1,53 @@
 var pass = document.getElementById('pass');
 var t = document.getElementById('type');
 var v = document.getElementById('version');
+var textureInput = document.getElementById('customTextureInput');
+const CUSTOM_TEXTURE_STORAGE_KEY = 'bee.launcher.customTexture';
+
+function applyCustomTexture(textureDataUrl) {
+    if (textureDataUrl) {
+        document.body.style.backgroundImage = `linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('${textureDataUrl}')`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+    } else {
+        document.body.style.backgroundImage = '';
+        document.body.style.backgroundSize = '';
+        document.body.style.backgroundPosition = '';
+        document.body.style.backgroundRepeat = '';
+    }
+}
+
+function openTexturePicker() {
+    if (textureInput) {
+        textureInput.click();
+    }
+}
+
+function resetTexture() {
+    localStorage.removeItem(CUSTOM_TEXTURE_STORAGE_KEY);
+    applyCustomTexture(null);
+}
+
+if (textureInput) {
+    textureInput.addEventListener('change', function() {
+        const file = this.files && this.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(evt) {
+            const textureDataUrl = evt.target.result;
+            localStorage.setItem(CUSTOM_TEXTURE_STORAGE_KEY, textureDataUrl);
+            applyCustomTexture(textureDataUrl);
+        };
+        reader.readAsDataURL(file);
+    });
+
+    const savedTexture = localStorage.getItem(CUSTOM_TEXTURE_STORAGE_KEY);
+    if (savedTexture) {
+        applyCustomTexture(savedTexture);
+    }
+}
 var change = (type) => {
     pass.disabled = type == 0
 }
