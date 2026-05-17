@@ -1398,6 +1398,41 @@ body {
     border-color: transparent;
 }
 
+#resourcePackButton {
+    padding: 7px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'bloxatregular';
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
+
+#resourcePackButton:hover,
+#resourcePackButton:focus {
+    text-shadow: 0px 0px 20px #fff;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#resourcePackStatus {
+    display: inline-block;
+    max-width: 160px;
+    margin-left: 8px;
+    font-family: 'Alata', sans-serif;
+    font-size: 11px;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.resource-pack-success {
+    color: greenyellow;
+}
+
+.resource-pack-error {
+    color: red;
+}
+
 #launchButton:hover,
 #launchButton:focus {
 
